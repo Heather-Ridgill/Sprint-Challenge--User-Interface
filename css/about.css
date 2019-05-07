@@ -77,12 +77,18 @@ body {
     margin: 0 auto;
 }
 
+.cta .cta-text button:hover {
+    background: black;
+    color: white;
+}
+
 header nav {
-    text-align: row;
+    text-align: right;
     margin: auto;
 }
 
 header nav a {
+    align-content: center;
     padding: 30px;
 }
 
@@ -92,56 +98,46 @@ color: red;
 }
 
 header .logo { 
-	flex: inline;
+    padding: 10px;
   }
 
- .about{
-     margin: 100px;
-
-  }
-
-.top-content {
+  .about-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    align-items: center;
+    }
+    
+ .about-content .about-box {
+    padding: 20px;
+    width: 420px;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+    
+    }
+
+.about-content .how-box {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+    margin: 35px;
+
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    
+}
+
+.middle .places-box {
+    padding: 20px;
+    width: 420px;
+    margin: 20px 0; 
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.main-content {
-   border-top: 2px solid black; 
-   border-bottom: 2px solid black;
-   margin: 75px 0 35px 0;
-   padding: 35px 0;
-   font-size: 16px;
-   line-height: 18px;
-}
-
-.main-content .top-content {
-    display: flex;
-}
-
-.main-content .middle-img {
-    display: block;
-    margin: 30px auto;
-}
-
-.main-content .bottom-content {
-    display: flex;
-}
-
-.main-content .bottom-content p {
-    padding-right: 20px;
-}
-
-.contact p {
-    margin: 15px 0;
+.middle .collaboration-box {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+    margin: 35px;
 }
 
 
